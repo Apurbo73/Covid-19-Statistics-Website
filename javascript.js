@@ -41,12 +41,12 @@ const displayCountryData = (countries) => {
 
       `
 
-      document.getElementById('country-statistics').style.display='block';
-      document.getElementById('search-field').value=' ';
+      document.getElementById('country-statistics').style.display = 'block';
+      document.getElementById('search-field').value = ' ';
 
     }
 
-    
+
   }
 }
 
