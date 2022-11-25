@@ -1,0 +1,67 @@
+body {
+    background-image: url(images/covid.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    font-family: sans-serif;
+}
+
+.search-box {
+    text-align: center;
+}
+
+.search-div {
+    text-align: center;
+    margin-top: 5rem;
+    padding: 10px;
+}
+.search-box{
+    width: 50%;
+    margin:auto;
+    padding: 12px;
+    outline: none;
+    border: 0.5px solid white;
+    border-radius: 16px;
+
+
+}
+
+.search-box:hover{
+    background-color: teal;
+    color: rgb(255, 240, 243);
+
+}
+
+.search-button{
+    margin:auto;
+    padding: 12px;
+    outline: none;
+    border: 0.5px solid white;
+    border-radius: 16px;
+    background-color: orange;
+
+
+}
+.search-button:hover{
+    background-color: teal;
+    color: aliceblue;
+}
+
+::placeholder{
+    color: black;
+
+}
+
+
+#global-statistics, #country-statistics{
+    text-align: center;
+    color: aliceblue;
+    background-color: brown;
+    width: 300px;
+    height: 300px;
+}
+#country-statistics{
+    background-color: rgb(3, 54, 54);
+    display: none;
+}
